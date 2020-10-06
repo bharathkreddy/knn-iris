@@ -18,6 +18,7 @@ train=pd.read_pickle('resources/train.pkl')
 ########### Set up the layout
 
 app.layout = html.Div(children=[
+    html.H1('WWW.BHARARTHKREDDY.COM'),
     html.H1('Classification of Iris Flowers'),
     html.Div([
         html.Div([
@@ -70,7 +71,7 @@ app.layout = html.Div(children=[
             className='six columns'),
         ], className='twelve columns'),
     html.Br(),
-    html.A('Code on Github', href='https://github.com/austinlasseter/knn_iris_plotly'),
+    html.A('Code on Github', href='https://github.com/bharathkreddy/knn-iris'),
     html.Br(),
     html.A('Image/data source:', href='http://blog.kaggle.com/2015/04/22/scikit-learn-video-3-machine-learning-first-steps-with-the-iris-dataset/')
     ])

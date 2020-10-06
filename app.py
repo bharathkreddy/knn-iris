@@ -71,7 +71,7 @@ app.layout = html.Div(children=[
             className='six columns'),
         ], className='twelve columns'),
     html.Br(),
-    html.A('Code on Github', href='https://github.com/bharathkreddy/knn-iris'),
+    html.A('www.bharathkreddy.com', href='https://www.bharathkreddy.com'),
     html.Br(),
     html.A('Image/data source:', href='http://blog.kaggle.com/2015/04/22/scikit-learn-video-3-machine-learning-first-steps-with-the-iris-dataset/')
     ])

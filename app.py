@@ -18,8 +18,8 @@ train=pd.read_pickle('resources/train.pkl')
 ########### Set up the layout
 
 app.layout = html.Div(children=[
-    html.H1('WWW.BHARARTHKREDDY.COM'),
     html.H1('Classification of Iris Flowers'),
+    html.H6('Slide the bars to select Sepal length Petal Lenght of an imaginary iris flower and then select the number of neightbours you want the aglorithm to choose. You would see your selection, represented as a star with algorithm taking k number of nearest neighbours and tagging the flower variety.'),
     html.Div([
         html.Div([
             html.Div([], className='one column'),
